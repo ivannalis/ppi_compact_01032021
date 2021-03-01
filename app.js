@@ -39,6 +39,10 @@ app.get('/list',(req,res) => {
     res.render('list')
 })
 
+app.get('/detail-indikator',(req,res) => {
+    res.render('detail-indikator')
+})
+
 app.listen(3000,() =>{
     console.log('sukses gan')
 })

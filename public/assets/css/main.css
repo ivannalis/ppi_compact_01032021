@@ -2664,17 +2664,17 @@ ol {
 .job-category .single-cat {
   text-align: center;
   padding: 30px;
-  border: 1px dashed #eee;
+  /* border: 1px dashed #eee; */
   margin: 15px 0;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   display: block;
 }
 
-.job-category .single-cat:hover {
+/* .job-category .single-cat:hover {
   -webkit-box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
           box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
-}
+} */
 
 .job-category .single-cat i {
   font-size: 26px;
@@ -4563,5 +4563,10 @@ ol {
 
 /* css tambahan baru */
 #kategoriproject {
-  margin:0
+  margin:auto
 }
+
+/* additional css */
+/* #kategoriproject2 {
+  margin:auto !important
+} */
