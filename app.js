@@ -43,6 +43,10 @@ app.get('/detail-indikator',(req,res) => {
     res.render('detail-indikator')
 })
 
+app.get('/loi',(req,res) => {
+    res.render('loi')
+})
+
 app.listen(3000,() =>{
     console.log('sukses gan')
 })
