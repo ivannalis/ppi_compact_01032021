@@ -47,6 +47,10 @@ app.get('/loi',(req,res) => {
     res.render('loi')
 })
 
+app.get('/applyers',(req,res) => {
+    res.render('applyers')
+})
+
 app.listen(3000,() =>{
     console.log('sukses gan')
 })

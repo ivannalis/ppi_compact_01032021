@@ -4893,7 +4893,7 @@ blockquote .shape {
 
 .dashbord-sidebar ul li a:hover {
   background-color: #2042e3;
-  color: #fff;
+  color: #fff !important;
   border-color: transparent;
 }
 
@@ -8103,14 +8103,14 @@ blockquote .shape {
   padding: 11px;
   background-color: #2042e3;
   color: #fff;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
 }
 
 #loi-btn:hover {
   color: #fff;
   background-color: #070707;
-  border-color: transparent;
-  -webkit-transform: none;
-  transform: none;
   
 }
 
